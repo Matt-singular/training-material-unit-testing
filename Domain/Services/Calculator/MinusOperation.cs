@@ -1,9 +1,8 @@
-﻿namespace Domain.Services;
-
+﻿namespace Domain.Services.Calculator;
 /// <summary>
-/// AA simple add operation to sum two values
+/// A simple minus operation to subtract two values
 /// </summary>
-public class AddOperation : ICalculatorOperation
+public class MinusOperation : ICalculatorOperation
 {
   public decimal Execute(decimal? a, decimal? b)
   {
@@ -11,6 +10,6 @@ public class AddOperation : ICalculatorOperation
     ArgumentNullException.ThrowIfNull(a, nameof(a));
     ArgumentNullException.ThrowIfNull(b, nameof(b));
 
-    return a.Value + b.Value;
+    return a.Value - b.Value;
   }
 }

@@ -1,6 +1,6 @@
 namespace Domain.Tests.Services.AddOperation;
 
-using Domain.Services;
+using Domain.Services.Calculator;
 
 /// <summary>
 /// Some very simple units using the <see cref="FactAttribute"/> and the <see cref="TheoryAttribute"/>.

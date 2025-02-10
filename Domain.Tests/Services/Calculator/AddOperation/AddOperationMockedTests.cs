@@ -1,6 +1,6 @@
 ﻿namespace Domain.Tests.Services.AddOperation;
 
-using Domain.Services;
+using Domain.Services.Calculator;
 
 public partial class AddOperationTests
 {
