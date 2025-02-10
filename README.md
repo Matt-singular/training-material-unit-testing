@@ -21,11 +21,17 @@ We will be utilising the following tools though note that there are many other t
 
 ## Unit Tests
 
-TODO
+Tests a single unit of work, typically a method or function. The goal is to isolate the code under test and verify that it behaves as expected.
+
+- [Unit tests using Facts](Domain.Tests/Services/Calculator/AddOperationTests.cs)
+- [Unit tests using Theories](Domain.Tests/Services/Calculator/MinusOperationTests.cs)
+- [Unit tests using Mocks](Domain.Tests/Services/Calculator/MultiplyOperationTests.cs)
 
 ## Integration Tests
 
-TODO
+Tests the interaction between components. This can be a database, file system, network, or even other services.
+
+- [Integration test for an interaction with a third party API](Domain.Tests/Services/Calculator/DivideOperationTests.cs)
 
 ## Code Coverage
 
@@ -35,9 +41,10 @@ A simple script [GenerateCodeCoverage.ps1](GenerateCodeCoverage.ps1) has been cr
 
 ## Test Driven Development (TDD)
 
-TODO
+A software methodology that emphasizes writing tests before writing the actual code in order to ensure that the code is always tested and functional, reducing bugs and improving code quality. In TDD, developers write small, focused tests that define the desired functionality, then write the minimum code necessary to pass these tests, and finally refactor the code to improve structure and performance.
 
-## Extras
+## Extras not covered
 
-- testenvironments.json
-- Runsettings
+- [Test Environments](https://learn.microsoft.com/en-us/visualstudio/test/remote-testing)
+- [Runsettings](https://learn.microsoft.com/en-us/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file)
+- [In-memory database](https://learn.microsoft.com/en-us/ef/core/providers/in-memory)
