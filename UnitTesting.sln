@@ -5,6 +5,7 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{93C200FB-6021-403F-8CBB-16069F596AD8}"
 	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
 		GenerateCodeCoverage.ps1 = GenerateCodeCoverage.ps1
 		README.md = README.md
 	EndProjectSection
