@@ -1,5 +1,6 @@
 ﻿namespace Application;
 
+using System.Diagnostics.CodeAnalysis;
 using Domain.Services.Products;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -7,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 /// <summary>
 /// Contains extension methods for the <see cref="Program"/> startup class.
 /// </summary>
+[ExcludeFromCodeCoverage]
 public static class StartupExtensions
 {
   /// <summary>
