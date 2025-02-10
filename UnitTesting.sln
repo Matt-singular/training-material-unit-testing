@@ -5,8 +5,8 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{93C200FB-6021-403F-8CBB-16069F596AD8}"
 	ProjectSection(SolutionItems) = preProject
-		Directory.Packages.props = Directory.Packages.props
 		.editorconfig = .editorconfig
+		Directory.Packages.props = Directory.Packages.props
 		GenerateCodeCoverage.ps1 = GenerateCodeCoverage.ps1
 		README.md = README.md
 		testenvironments.json = testenvironments.json
@@ -19,6 +19,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{7C0B8E8B-4AEA-4E9D-A365-A76EC4F3D711}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{C5A03DC4-86B0-4C0B-9B17-2B5CA7E45D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{F9EB7214-ABA2-445E-B6A2-198AA2349C1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{C5A03DC4-86B0-4C0B-9B17-2B5CA7E45D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5A03DC4-86B0-4C0B-9B17-2B5CA7E45D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5A03DC4-86B0-4C0B-9B17-2B5CA7E45D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EB7214-ABA2-445E-B6A2-198AA2349C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EB7214-ABA2-445E-B6A2-198AA2349C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EB7214-ABA2-445E-B6A2-198AA2349C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EB7214-ABA2-445E-B6A2-198AA2349C1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
