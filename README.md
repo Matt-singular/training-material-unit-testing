@@ -36,3 +36,8 @@ A simple script [GenerateCodeCoverage.ps1](GenerateCodeCoverage.ps1) has been cr
 ## Test Driven Development (TDD)
 
 TODO
+
+## Extras
+
+- testenvironments.json
+- Runsettings
