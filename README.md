@@ -1,5 +1,3 @@
-# [Unit Testing](Application/CoverageReport/index.html)
-
 ## Introduction
 
 This repository goes through some of the basics of unit testing in .NET aimed at Junior software developers.
