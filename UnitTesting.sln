@@ -8,6 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		Directory.Packages.props = Directory.Packages.props
 		GenerateCodeCoverage.ps1 = GenerateCodeCoverage.ps1
 		README.md = README.md
+		testenvironments.json = testenvironments.json
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{1B3C6F6F-085C-4FCA-A59C-6391A36D078E}"
@@ -15,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C7D5CAB4-BE6E-4F07-A54C-5AC236822193}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{7C0B8E8B-4AEA-4E9D-A365-A76EC4F3D711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{C5A03DC4-86B0-4C0B-9B17-2B5CA7E45D93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,10 @@ Global
 		{7C0B8E8B-4AEA-4E9D-A365-A76EC4F3D711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C0B8E8B-4AEA-4E9D-A365-A76EC4F3D711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C0B8E8B-4AEA-4E9D-A365-A76EC4F3D711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A03DC4-86B0-4C0B-9B17-2B5CA7E45D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A03DC4-86B0-4C0B-9B17-2B5CA7E45D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A03DC4-86B0-4C0B-9B17-2B5CA7E45D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A03DC4-86B0-4C0B-9B17-2B5CA7E45D93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
