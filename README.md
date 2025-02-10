@@ -39,6 +39,8 @@ A simple way to measure the effectiveness of your tests is to use a code coverag
 
 A simple script [GenerateCodeCoverage.ps1](GenerateCodeCoverage.ps1) has been created to generate the code coverage report.)
 
+The latest code coverage report can be found [here](Application/CoverageReport/index.html).
+
 ## Test Driven Development (TDD)
 
 A software methodology that emphasizes writing tests before writing the actual code in order to ensure that the code is always tested and functional, reducing bugs and improving code quality. In TDD, developers write small, focused tests that define the desired functionality, then write the minimum code necessary to pass these tests, and finally refactor the code to improve structure and performance.
