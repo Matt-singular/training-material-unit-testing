@@ -1,4 +1,4 @@
-﻿namespace Domain.Operations;
+﻿namespace Domain.Services;
 
 /// <summary>
 /// AA simple add operation to sum two values

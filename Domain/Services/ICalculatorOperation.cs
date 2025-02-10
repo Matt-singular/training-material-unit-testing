@@ -1,4 +1,4 @@
-﻿namespace Domain.Operations;
+﻿namespace Domain.Services;
 
 public interface ICalculatorOperation
 {
