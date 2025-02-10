@@ -1,5 +1,5 @@
-﻿namespace Domain.Tests.Operations;
-/// <inheritdoc/>
+﻿namespace Domain.Tests.Services.AddOperation;
+
 public partial class AddOperationTests
 {
   private static readonly decimal? NonConstantValue = 5m;
