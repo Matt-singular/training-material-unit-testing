@@ -1,4 +1,4 @@
-﻿namespace IntegrationTests;
+﻿namespace IntegrationTests.Helpers;
 
 using Microsoft.Extensions.Configuration;
 

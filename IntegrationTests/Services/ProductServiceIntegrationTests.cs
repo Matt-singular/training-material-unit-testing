@@ -2,6 +2,7 @@
 
 using Domain.Services.Products;
 using FluentAssertions;
+using IntegrationTests.Helpers;
 
 /// <summary>
 /// Integration tests for the <see cref="ProductService"/> class using <see cref="NSubstitute"/> for mocking.
