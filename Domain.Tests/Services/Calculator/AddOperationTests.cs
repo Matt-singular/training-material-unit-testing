@@ -1,11 +1,11 @@
-namespace Domain.Tests.Services.AddOperation;
+namespace Domain.Tests.Services.Calculator;
 
 using Domain.Services.Calculator;
 
 /// <summary>
-/// Some very simple units using the <see cref="FactAttribute"/> and the <see cref="TheoryAttribute"/>.
+/// Unit tests for the <see cref="AddOperation"/> class using the <see cref="FactAttribute"/>.
 /// </summary>
-public partial class AddOperationTests
+public class AddOperationTests
 {
   private readonly AddOperation AddOperationService;
 

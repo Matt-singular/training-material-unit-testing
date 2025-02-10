@@ -3,7 +3,7 @@
 using Domain.Services.Calculator;
 
 /// <summary>
-/// Unit tests for the <see cref="MinusOperation"/> class.
+/// Unit tests for the <see cref="MinusOperation"/> class using the <see cref="TheoryAttribute"/>.
 /// </summary>
 public class MinusOperationTests
 {
