@@ -1,13 +1,17 @@
 <Project>
-
+  
   <PropertyGroup>
     <!-- Enables Central Package Management -->
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
-
+  
   <!-- Domain -->
   <ItemGroup>
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.1" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Http" Version="9.0.1" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
   
   <!-- Tests -->
